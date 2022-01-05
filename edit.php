@@ -2,7 +2,6 @@
 	@session_start();
 	include ("global.php");
 	include ("top.php");
-
 	echo "<head>";		
 		echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"common/common.css\" />";
 		echo "<link rel=\"stylesheet\" href=\"../lib/ajax/mSuggest.css\" type=\"text/css\" />";
