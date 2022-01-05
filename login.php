@@ -1,8 +1,6 @@
 <?php
 @session_start();
 include("global.php");
-
-
 if(isset($_SESSION['log_UserID']))
 {
 	require_once 'global.php';
