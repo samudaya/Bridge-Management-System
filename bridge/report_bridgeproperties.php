@@ -2,6 +2,7 @@
 	include ("../global.php");
 	include ("../top.php");
 
+
 	if(isset($_SESSION['BridgeProfileID'])){
 		unset($_SESSION['BridgeProfileID']);
 	}if(isset($_SESSION['StructureTypeName'])){

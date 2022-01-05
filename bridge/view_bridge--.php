@@ -2,9 +2,7 @@
 	include ("../global.php");
 	include ("../top.php");
 
-	
-
-$BridgeProfileID	= 0;
+	$BridgeProfileID	= 0;
 if(isset($_POST['SearchString']) )
 {
 	$elements               = array();

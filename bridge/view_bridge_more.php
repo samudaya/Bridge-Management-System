@@ -1,5 +1,6 @@
 <?php
 
+
 if (isset($_SESSION['BridgeProfileID'])){
 	unset($_SESSION['BridgeProfileID']);
 }

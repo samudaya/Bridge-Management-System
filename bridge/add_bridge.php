@@ -5,10 +5,6 @@
 
 	echo "<head>";
 	
-	/* Inserting the CSS style sheet	
-	*
-	*
-	*/
 	echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"../common/common.css\" />";
 	echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"../lib/jquery/cal/cal.css\" />";
 	/*	

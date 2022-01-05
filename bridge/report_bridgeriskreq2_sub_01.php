@@ -1,4 +1,5 @@
 <?php
+
 	@session_start();
 	include ("../global.php");
 		$BridgeProfileID	= $_SESSION['BridgeProfileID'];

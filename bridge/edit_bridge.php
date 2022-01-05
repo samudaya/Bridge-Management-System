@@ -1,7 +1,7 @@
 <?php
 	include ("../global.php");
 	include ("../top.php");
-@session_start();
+	@session_start();
 	
 $BridgeProfileID = 0;
 if(isset($_POST['SearchString']) )

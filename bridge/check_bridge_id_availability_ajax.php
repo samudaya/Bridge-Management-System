@@ -1,7 +1,6 @@
 <?php
         @session_start();
 		$birdeid       = $_GET['birdeid'];
-
         $logged_user_ID = $_SESSION['log_UserID'];
         require_once '../global.php';
         $mis_bridge       = 0;

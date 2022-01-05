@@ -2,8 +2,8 @@
 <head>
 <script>
 function framePrint(whichFrame){
-parent[whichFrame].focus();
-parent[whichFrame].print();
+	parent[whichFrame].focus();
+	parent[whichFrame].print();
 }
 </script>
 <title></title>

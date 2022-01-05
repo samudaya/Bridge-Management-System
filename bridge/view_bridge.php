@@ -3,6 +3,7 @@
 	include ("../top.php");
 	@session_start();
 
+
 $BridgeProfileID	= 0;
 if(isset($_POST['SearchString']) )
 {

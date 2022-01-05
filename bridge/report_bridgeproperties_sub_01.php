@@ -2,6 +2,7 @@
 	@session_start();
 	include ("../global.php");
 	
+	
 	echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"../common/common.css\" />";
 
 	echo "<br /><br /><h2>Bridge Properties Report</h2><br /><br />";
