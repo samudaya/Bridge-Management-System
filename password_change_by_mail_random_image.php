@@ -1,7 +1,6 @@
 <?php
 @session_start();
 
-
 $new_string;
 
 $string = md5(rand(0,9999));

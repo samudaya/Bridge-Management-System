@@ -2,10 +2,8 @@
 @session_start();
 include("global.php");
 
-
 function generatePassword ($length = 8)
 	{
-		// start with a blank password
 		$password = "";
 		
 		// define possible characters
