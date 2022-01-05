@@ -11,7 +11,7 @@
 		$ProbalilityOfConsequencesFactor = 700; // (4 * 5 * 5 * 7)
 	//////////////////////////////////////////////////////////////////////////////////////////
 	
-	$mis_db_connect = mysql_connect("localhost", "root", "rootPW") or die(mysql_error());
+	$mis_db_connect = mysql_connect("localhost", "root", "RootPW") or die(mysql_error());
 	mysql_select_db('bms', $mis_db_connect) or die(mysql_error());
 
 ?>
