@@ -11,7 +11,6 @@
 		unset($_SESSION['log_UserID']);
 		unset($_SESSION['log_user_ip_set']);
 	}
-
 if($_SERVER["HTTPS"] == "on") 
 {
 	$newpage = "http://". $_SERVER["SERVER_NAME"] . $_SERVER["REQUEST_URI"];
