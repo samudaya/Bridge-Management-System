@@ -1,5 +1,6 @@
 <?php
 	session_start();
+	
 	include ("../global.php");
 	include ("../top.php");
 	

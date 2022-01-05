@@ -3,6 +3,7 @@
 	include ("../global.php");
 	include ("../top.php");
 
+
 if(!isset($_POST['more']))
 	unset($_SESSION['more']);
 

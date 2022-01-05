@@ -5,6 +5,7 @@ function framePrint(whichFrame){
 parent[whichFrame].focus();
 parent[whichFrame].print();
 }
+
 </script>
 <title></title>
 <base target="_self">
