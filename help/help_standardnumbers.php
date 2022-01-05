@@ -1,7 +1,6 @@
 <?php
 	include ("../global.php");
 	include ("../top.php");
-
 	echo "<head>";
 
 	echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"../common/common.css\" />";
