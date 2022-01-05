@@ -1,7 +1,6 @@
 <html>
 <head>
 <script>
-
 function framePrint(whichFrame){
 parent[whichFrame].focus();
 parent[whichFrame].print();
