@@ -8,7 +8,6 @@
 		exit();
 	}
 	
-	
 	$FullURL 	= "https://".$_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
 	$page_path 	= str_replace($pathprefix, '', $FullURL);
 	$page_path 	= explode(".php", $page_path);
