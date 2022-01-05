@@ -1,0 +1,2 @@
+This directory and sub-directories are contained free and open source projects libraries. 
+All these projects are under different licenses, and you have to comply with their licnse conditions.

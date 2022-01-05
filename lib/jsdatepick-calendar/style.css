@@ -1,0 +1,51 @@
+* {margin:0;padding:0}
+body {font-family:Verdana,Helvetica,Arial,sans-serif;font-size:12px;line-height:1.5em; background:url(siteimg/topsite_bg.gif) left top repeat-x #ffffff;color:#333333;}
+
+h1,h2,h3,h4 {font-family:Georgia;font-weight:normal}
+h1 {font-size:22px}
+h2 {font-size:20px;text-decoration:underline}
+h3 {font-size:18px}
+h1,h2,h3 {margin:0 0 10px 0}
+p {margin-bottom:15px}
+ul,ol {margin:0 0 15px 40px}
+a {text-decoration:none;color:#518ec2;}
+a:hover {text-decoration:underline}
+img {border-style:none}
+
+
+#container {margin:0 auto;width:980px;overflow:auto}
+#header {height:70px;line-height:70px}
+
+#logo {font-family:Georgia;font-size:34px}
+
+#logoLink {text-decoration:none;color:#333333}
+
+#menu {float:left;margin:0 0 20px 0;width:100%;height:40px;line-height:40px;font-size:20px;font-family:Georgia;text-align:center}
+#menu li {display:inline}
+#menu li a {float:left;display:block;text-decoration:none;padding:0 30px;height:40px}
+#menu li a:hover,#menu.active {height:35px;color:#518ec2;border-bottom:5px solid #b9d8f2}
+
+#main {float:left;margin:0 15px 0 0;width:615px}
+#side {float:left;width:346px; border-left: 4px double #e2e2e2}
+#footer {clear:both; background:url(siteimg/botsite_bg.gif) left bottom repeat-x #ffffff; height:50px; }
+.sideBox {margin:10px 0;padding:5px}
+.row {float:left;width:100%;margin:15px 0}
+.half {float:left;width:48%;margin:0 1%}
+.third {float:left;width:30%;margin:0 1%;text-align:center;}
+.third a:hover { text-decoration:none !important; }
+.featureBackground {background:#FFDB4D}
+.button{ color:#666666; text-align:left !important;}
+.center {text-align:center}
+.right {float:right}
+.left {float:left}
+.sizesTbl td { padding:0 0 0 9px; }
+#div3_example { border:dashed 1px #666666; height:240px; width:220px; }
+#div3_example_result { border:dashed 1px #666666; height:20px; width:80px; }
+
+.normalInputField { font-size:12px; font-family:Arial; width:200px; }
+textarea { width:300px; height:100px; }
+.errorClass { color:#CC0000; font-weight:bold; text-align:left; padding:15px 0 15px 0; }
+.successClass { color:#009933; font-weight:bold; text-align:left; padding:15px 0 15px 0; }
+#statusTrayRow { display:none; }
+.smallText { font-size:12px; }
+.red { color:#FF3333;}

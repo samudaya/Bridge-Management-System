@@ -1,0 +1,40 @@
+.suggestions
+{
+  position: absolute;
+  margin-top: -13px;
+  margin-left: -2px;
+  display: none;
+  filter: alpha(opacity=0);
+  -moz-opacity: .0;
+  opacity: .0;
+  background: #fff;
+  border: 1px solid #7F9DB9;
+  z-index: 99999;
+  FONT-SIZE: 12;
+TEXT-ALIGN: left;  
+}
+
+.suggestions .suggestionentry
+{
+  margin: 0;
+  padding: 5px;
+  cursor: pointer
+}
+
+.suggestions .mouseenter
+{
+  background: #C8DDF0;
+}
+
+.suggestions .mouseout
+{
+  background: #FFFFFF;
+}
+
+.suggestions .suggestioncount
+{
+  padding: 5px;
+  background: #BEFACF;
+  border-top: 1px dashed #8CDFA3;
+  text-align: center;
+}
