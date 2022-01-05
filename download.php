@@ -2,7 +2,6 @@
 @session_start();
 
 define('ALLOWED_REFERRER', '');
-
 if(isset($_GET['id']))
 {
 	$myid	= $_GET['id'];
