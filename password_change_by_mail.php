@@ -348,7 +348,7 @@ function generatePassword ($length = 8)
 						$Table_Name			= "bms_users";
 						$SQL_Query			= "";
 						$Action				= "Request Username";			
-						$insert_log = "insert into mis_exam_log(uomuser_UserID, Table_Name, SQL_Query, Action) values ('$UserID' , '$Table_Name','$SQL_Query' , '$Action')";
+						$insert_log = "insert into mis_exam_log(users_UserID, TableName, SQLQuery, Action) values ('$UserID' , '$Table_Name','$SQL_Query' , '$Action')";
 						mysql_query($insert_log);		
 						////////////////////////////////////////////////////////////////////////////////////////////
 						////////////////////////////////////////////////////////////////////////////////////////////
